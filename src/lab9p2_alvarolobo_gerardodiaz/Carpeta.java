@@ -1,14 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package lab9p2_alvarolobo_gerardodiaz;
 
-/**
- *
- * @author agln7
- */
+import java.util.ArrayList;
+
 public class Carpeta {
-    
+    private String nombre;
+    private String link;
+    private ArrayList <Archivo> archivos = new ArrayList();
+    private ArrayList <Carpeta> carpetas = new ArrayList();
 }
