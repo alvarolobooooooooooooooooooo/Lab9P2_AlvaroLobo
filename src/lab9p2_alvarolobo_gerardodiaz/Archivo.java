@@ -56,12 +56,6 @@ public class Archivo {
     
     
     
-    public String generarLink(){
-        Random r = new Random();
-        int random = 10000 + r.nextInt(99999);
-        link = "dive.google.com/"+random;
-        return link;
-    }
     
     
     
